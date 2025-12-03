@@ -7,5 +7,9 @@ $page = $_GET ['page'] ?? 'main';
 switch($page){
     case 'main':
         $controller->main();
+        
+    break;
+    case 'catalog':
+        $controller->catalog();
     break;
 }
