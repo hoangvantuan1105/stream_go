@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-    <link rel="stylesheet" href="admin/magnific-popup.css" />
-    <link rel="stylesheet" href="admin/owl.carousel.min.css" />
-    <link rel="stylesheet" href="admin/plyr.css" />
-    <link rel="stylesheet" href="admin/select2.min.css" />
-    <link rel="stylesheet" href="admin/main.css" />
+     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+/>
+  
     <link
       rel="icon"
       type="image/png"
-      href="https://flixtv.volkovdesign.com/admin/icon/favicon-32x32.png"
+      href="#"
       sizes="32x32"
     />
     <style id="smooth-scrollbar-style">
@@ -99,11 +98,11 @@
     <div class="sidebar">
       <!-- sidebar logo -->
       <a
-        href="https://flixtv.volkovdesign.com/admin/index.html"
+        href="#"
         class="sidebar__logo"
       >
         <img
-          src="admin/logo.svg"
+          src="frontend/assets/images/logo.png"
           alt=""
         />
       </a>
@@ -113,7 +112,7 @@
       <div class="sidebar__user">
         <div class="sidebar__user-img">
           <img
-            src="admin/user.svg"
+            src="frontend/assets/images/user.svg"
             alt=""
           />
         </div>
@@ -143,7 +142,7 @@
         <div class="scroll-content">
           <li class="sidebar__nav-item">
             <a
-              href="https://flixtv.volkovdesign.com/admin/index.html"
+              href="#"
               class="sidebar__nav-link sidebar__nav-link--active"
               ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -156,7 +155,7 @@
 
           <li class="sidebar__nav-item">
             <a
-              href="https://flixtv.volkovdesign.com/admin/catalog.html"
+              href="admin.php?page=catalog"
               class="sidebar__nav-link"
               ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -190,32 +189,32 @@
 
             <ul class="collapse sidebar__menu" id="collapseMenu">
               <li>
-                <a href="https://flixtv.volkovdesign.com/admin/add-item.html"
+                <a href="#"
                   >Add item</a
                   >
               </li>
               <li>
-                <a href="https://flixtv.volkovdesign.com/admin/edit-user.html"
+                <a href="#"
                   >Edit user</a
                   >
               </li>
               <li>
-                <a href="https://flixtv.volkovdesign.com/admin/signin.html"
+                <a href="#"
                   >Sign in</a
                 >
               </li>
               <li>
-                <a href="https://flixtv.volkovdesign.com/admin/signup.html"
+                <a href="#"
                   >Sign up</a
                 >
               </li>
               <li>
-                <a href="https://flixtv.volkovdesign.com/admin/forgot.html"
+                <a href="#"
                   >Forgot password</a
                 >
               </li>
               <li>
-                <a href="https://flixtv.volkovdesign.com/admin/404.html"
+                <a href="#"
                   >404 page</a
                 >
               </li>
@@ -225,7 +224,7 @@
 
           <li class="sidebar__nav-item">
             <a
-              href="https://flixtv.volkovdesign.com/admin/users.html"
+              href="#"
               class="sidebar__nav-link"
               ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -238,7 +237,7 @@
 
           <li class="sidebar__nav-item">
             <a
-              href="https://flixtv.volkovdesign.com/admin/comments.html"
+              href="#"
               class="sidebar__nav-link"
               ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -251,7 +250,7 @@
 
           <li class="sidebar__nav-item">
             <a
-              href="https://flixtv.volkovdesign.com/admin/reviews.html"
+              href="#"
               class="sidebar__nav-link"
               ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path
@@ -263,7 +262,7 @@
           </li>
           <li class="sidebar__nav-item">
             <a
-              href="https://flixtv.volkovdesign.com/main/index.html"
+              href="#"
               class="sidebar__nav-link"
               ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path

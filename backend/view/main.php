@@ -2,10 +2,26 @@
 <html lang="en">
 
 <head>
+<<<<<<< HEAD
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <!-- CSS -->
+=======
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS -->
+     <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"
+/>
+    <link rel="stylesheet" href="frontend/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="frontend/assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="frontend/assets/css/plyr.css" />
+    <link rel="stylesheet" href="frontend/assets/css/select2.min.css" />
+    <link rel="stylesheet" href="backend/assets/css/admin.css" />
+>>>>>>> origin/dung123
 
   <link
     rel="stylesheet"
@@ -169,6 +185,7 @@
               </div>
             </div>
 
+<<<<<<< HEAD
             <div
               class="dashbox__table-wrap dashbox__table-wrap--1"
               data-scrollbar="true"
@@ -187,6 +204,46 @@
                   <tbody>
                     <tr>
                       <td>
+=======
+              <div
+                class="dashbox__table-wrap dashbox__table-wrap--1"
+                data-scrollbar="true"
+                tabindex="-1"
+                style="overflow: hidden; outline: none"
+              >
+                <div class="scroll-content">
+                  <table class="main__table main__table--dash">
+                    <thead>
+                      <tr>
+                        <th>ID</th>
+                        <th>TITLE</th>
+                        <th>CATEGORY</th>
+                        <th>RATING</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>1</td>
+                        <td>Sample Title</td>
+                        <td>Category</td>
+                        <td>8.9</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end dashbox -->
+
+        </div>
+      </div>
+    </main>
+
+    <!-- JS (placed at end for better performance) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js"></script>
+>>>>>>> origin/dung123
 </body>
 
 </html>

@@ -14,6 +14,10 @@
 <link rel="stylesheet" href="frontend/assets/css/magnific-popup.css">
 <link rel="stylesheet" href="frontend/assets/css/plyr.css">
 <link rel="stylesheet" href="frontend/assets/css/main.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" />
+
 <style id="smooth-scrollbar-style">
 	[data-scrollbar] {
 		display: block;
@@ -545,33 +549,11 @@
 					<div class="section__carousel-wrap">
 						<div class="section__carousel owl-carousel owl-loaded" id="subscriptions">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 							<div class="owl-stage-outer owl-height" style="height: 363.016px;">
 								<div class="owl-stage" style="transform: translate3d(-1330px, 0px, 0px); transition: all; width: 5321px;">
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//17.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -581,7 +563,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Best Movies</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Best Movies</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -589,7 +571,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//13.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -599,7 +581,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">The best melodramas</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">The best melodramas</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 400 movies</li>
 											</ul>
@@ -607,7 +589,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//10.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -617,7 +599,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Horror movies</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Horror movies</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 500 movies</li>
 											</ul>
@@ -625,7 +607,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//9.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -635,7 +617,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Russian TV Shows</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Russian TV Shows</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -643,7 +625,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//14.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -653,7 +635,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Army films</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Army films</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 250 movies</li>
 											</ul>
@@ -661,7 +643,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//12.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -671,7 +653,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Cities of the world</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Cities of the world</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 500 movies</li>
 											</ul>
@@ -679,7 +661,7 @@
 									</div>
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//11.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -689,7 +671,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Sports broadcasts</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Sports broadcasts</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -697,7 +679,7 @@
 									</div>
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//15.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -707,7 +689,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Psychological films</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Psychological films</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 200 movies</li>
 											</ul>
@@ -715,7 +697,7 @@
 									</div>
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//3.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -725,7 +707,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Films about space</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Films about space</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 100 movies</li>
 											</ul>
@@ -733,7 +715,7 @@
 									</div>
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//1.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -743,7 +725,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Romantic movies</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Romantic movies</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -751,7 +733,7 @@
 									</div>
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//18.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -761,7 +743,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Movies about the middle ages</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Movies about the middle ages</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -769,7 +751,7 @@
 									</div>
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//2.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -779,7 +761,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Fairy tales</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Fairy tales</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 100 movies</li>
 											</ul>
@@ -787,7 +769,7 @@
 									</div>
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//17.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -797,7 +779,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Best Movies</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Best Movies</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -805,7 +787,7 @@
 									</div>
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//13.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -815,7 +797,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">The best melodramas</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">The best melodramas</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 400 movies</li>
 											</ul>
@@ -823,7 +805,7 @@
 									</div>
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//10.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -833,7 +815,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Horror movies</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Horror movies</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 500 movies</li>
 											</ul>
@@ -841,7 +823,7 @@
 									</div>
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//9.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -851,7 +833,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Russian TV Shows</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Russian TV Shows</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -859,7 +841,7 @@
 									</div>
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//14.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -869,7 +851,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Army films</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Army films</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 250 movies</li>
 											</ul>
@@ -877,7 +859,7 @@
 									</div>
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//12.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -887,7 +869,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Cities of the world</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Cities of the world</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 500 movies</li>
 											</ul>
@@ -895,7 +877,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//11.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -905,7 +887,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Sports broadcasts</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Sports broadcasts</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -913,7 +895,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//15.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -923,7 +905,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Psychological films</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Psychological films</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 200 movies</li>
 											</ul>
@@ -931,7 +913,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//3.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -941,7 +923,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Films about space</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Films about space</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 100 movies</li>
 											</ul>
@@ -949,7 +931,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//1.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -959,7 +941,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Romantic movies</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Romantic movies</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -967,7 +949,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//18.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -977,7 +959,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Movies about the middle ages</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Movies about the middle ages</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 300 movies</li>
 											</ul>
@@ -985,7 +967,7 @@
 									</div>
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
-											<a href="https://flixtv.volkovdesign.com/main/details.html" class="card__cover">
+											<a href="" class="card__cover">
 												<img src="/frontend//assets//images//2.png" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -995,7 +977,7 @@
 											<button class="card__add" type="button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 													<path d="M16,2H8A3,3,0,0,0,5,5V21a1,1,0,0,0,.5.87,1,1,0,0,0,1,0L12,18.69l5.5,3.18A1,1,0,0,0,18,22a1,1,0,0,0,.5-.13A1,1,0,0,0,19,21V5A3,3,0,0,0,16,2Zm1,17.27-4.5-2.6a1,1,0,0,0-1,0L7,19.27V5A1,1,0,0,1,8,4h8a1,1,0,0,1,1,1Z"></path>
 												</svg></button>
-											<h3 class="card__title card__title--subs"><a href="https://flixtv.volkovdesign.com/main/details.html">Fairy tales</a></h3>
+											<h3 class="card__title card__title--subs"><a href="">Fairy tales</a></h3>
 											<ul class="card__list card__list--subs">
 												<li>More than 100 movies</li>
 											</ul>
@@ -1105,46 +1087,32 @@
 		</div>
 	</section>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script>
-	document.addEventListener('DOMContentLoaded', function() {
-		// Đảm bảo rằng các phần tử tồn tại trước khi gắn sự kiện
-		const genreSelect = document.getElementById('genres');
-		const yearSelect = document.getElementById('years');
-		const items = document.querySelectorAll('.item');
+	$(document).ready(function() {
+		$("#flixtv-hero").owlCarousel({
+			items: 3,
+			margin: 30,
+			loop: true,
+			autoplay: true,
+			autoplayTimeout: 3000,
+			autoplaySpeed: 1800,
+			smartSpeed: 1800,
+			center: true,
+			dots: false,
+			nav: false,
+			autoWidth: true
+		});
 
-		if (!genreSelect || !yearSelect) {
-			console.error("Không tìm thấy phần tử dropdown genres hoặc years");
-			return;
-		}
+		$(".home__nav--next").click(() => {
+			$("#flixtv-hero").trigger("next.owl.carousel");
+		});
 
-		// Hàm áp dụng bộ lọc
-		function applyFilters() {
-			const selectedGenre = genreSelect.value;
-			const selectedYear = yearSelect.value;
-
-			items.forEach(item => {
-				const itemGenre = item.getAttribute('data-genre');
-				const itemYear = item.getAttribute('data-year');
-
-				// Kiểm tra xem item có khớp với genre và year đã chọn hay không
-				const genreMatch = selectedGenre === 'All genres' || itemGenre === selectedGenre;
-				const yearMatch = selectedYear === 'All the years' || itemYear === selectedYear;
-
-				// Hiển thị hoặc ẩn item dựa trên việc có khớp không
-				if (genreMatch && yearMatch) {
-					item.style.display = 'block';
-				} else {
-					item.style.display = 'none';
-				}
-			});
-		}
-
-		// Lắng nghe sự kiện thay đổi của dropdown
-		genreSelect.addEventListener('change', applyFilters);
-		yearSelect.addEventListener('change', applyFilters);
-
-		// Áp dụng bộ lọc ngay khi trang tải
-		applyFilters();
+		$(".home__nav--prev").click(() => {
+			$("#flixtv-hero").trigger("prev.owl.carousel");
+		});
 	});
 </script>
 

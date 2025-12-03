@@ -6,14 +6,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
 </head>
-<link rel="stylesheet" href="frontend/assets/css/bootstrap-reboot.min.css">
-<link rel="stylesheet" href="frontend/assets/css/bootstrap-grid.min.css">
-<link rel="stylesheet" href="frontend/assets/css/owl.carousel.min.css">
-<link rel="stylesheet" href="frontend/assets/css/slider-radio.css">
-<link rel="stylesheet" href="frontend/assets/css/select2.min.css">
-<link rel="stylesheet" href="frontend/assets/css/magnific-popup.css">
-<link rel="stylesheet" href="frontend/assets/css/plyr.css">
-<link rel="stylesheet" href="frontend/assets/css/main.css">
+<!-- CSS -->
+<link rel="stylesheet" href="/frontend//assets/css//bootstrap-reboot.min.css">
+<link rel="stylesheet" href="/frontend//assets/css//bootstrap-grid.min.css">
+<link rel="stylesheet" href="/frontend//assets/css//owl.carousel.min.css">
+<link rel="stylesheet" href="/frontend//assets/css//slider-radio.css">
+<link rel="stylesheet" href="/frontend//assets/css//select2.min.css">
+<link rel="stylesheet" href="/frontend//assets/css//magnific-popup.css">
+<link rel="stylesheet" href="/frontend//assets/css//plyr.css">
+<link rel="stylesheet" href="/frontend//assets/css//main.css">
+
+<!-- Favicons -->
+<link rel="icon" type="image/png" href="https://flixtv.volkovdesign.com/main/icon/favicon-32x32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="https://flixtv.volkovdesign.com/main/icon/favicon-32x32.png">
+
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="Dmitry Volkov">
+<title>FlixTV – Movies &amp; TV Shows, Online cinema HTML Template</title>
+
 <style id="smooth-scrollbar-style">
 	[data-scrollbar] {
 		display: block;
