@@ -1,0 +1,101 @@
+/* Đặt khung cho video player */
+.plyr {
+  border: 5px solid #007bff; /* Khung xanh dương */
+  border-radius: 10px; /* Bo góc */
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Thêm bóng đổ nhẹ */
+  overflow: hidden; /* Ẩn phần thừa ngoài khung */
+}
+
+/* Cải thiện giao diện của vùng hiển thị video */
+.plyr__video-wrapper {
+  position: relative;
+  border-bottom: 5px solid #007bff; /* Màu xanh dương cho đường viền dưới */
+}
+
+/* Chỉnh sửa màu nền cho các điều khiển */
+.plyr__controls {
+  background-color: #007bff; /* Màu nền xanh dương */
+  border-top: 5px solid #0056b3; /* Đường viền xanh đậm */
+  padding: 10px 15px; /* Thêm padding cho thanh điều khiển */
+  border-radius: 0 0 10px 10px; /* Bo góc dưới */
+}
+
+/* Chỉnh màu các icon điều khiển */
+.plyr__control svg {
+  fill: white; /* Màu trắng cho các icon */
+}
+
+/* Hover trên các nút điều khiển */
+.plyr__control:hover {
+  background-color: #0056b3; /* Màu xanh đậm khi hover */
+}
+
+/* Chỉnh sửa thanh tiến trình */
+.plyr__progress input {
+  background-color: #007bff; /* Màu xanh dương cho thanh tiến trình */
+  border-radius: 5px;
+  height: 10px; /* Độ cao thanh tiến trình */
+}
+
+/* Màu của thanh đã tải (buffer) */
+.plyr__progress__buffer {
+  background-color: rgba(0, 123, 255, 0.5); /* Xanh dương nhạt */
+}
+
+/* Thanh âm lượng */
+.plyr__volume input {
+  background-color: #007bff; /* Màu xanh dương cho thanh âm lượng */
+  border-radius: 5px;
+}
+
+/* Thay đổi màu cho thời gian hiện tại */
+.plyr__time--current {
+  color: #007bff; /* Màu xanh dương cho thời gian hiện tại */
+  font-weight: bold; /* Làm đậm thời gian hiện tại */
+}
+
+/* Nút Play/Pause */
+.plyr__control[data-plyr="play"] svg,
+.plyr__control[data-plyr="pause"] svg {
+  fill: #007bff; /* Màu xanh dương cho Play/Pause */
+}
+
+/* Nút Fullscreen */
+.plyr__control[data-plyr="fullscreen"] svg {
+  fill: #007bff; /* Màu xanh dương cho icon Fullscreen */
+}
+
+/* Nút Captions */
+.plyr__control[data-plyr="captions"] svg {
+  fill: #007bff; /* Màu xanh dương cho icon Captions */
+}
+
+/* Menu Settings */
+.plyr__menu__value {
+  color: #007bff; /* Màu xanh dương cho các menu chọn */
+}
+
+/* Màu nền cho badge trong menu chọn */
+.plyr__menu__value span.plyr__badge {
+  background-color: #007bff; /* Màu nền xanh dương cho badge */
+}
+
+/* Chỉnh sửa các nút trên menu */
+.plyr__control--forward {
+  background-color: #0056b3; /* Màu xanh đậm cho các nút menu */
+  border-radius: 5px;
+}
+
+.plyr__control--back {
+  background-color: #0056b3; /* Màu xanh đậm cho các nút quay lại */
+  border-radius: 5px;
+}
+
+/* Thêm màu cho nút Download */
+.article__download a {
+  color: #007bff; /* Màu xanh dương cho các liên kết download */
+}
+
+.article__download a:hover {
+  text-decoration: underline; /* Gạch chân khi hover */
+}
