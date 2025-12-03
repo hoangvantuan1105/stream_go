@@ -1,101 +1,324 @@
-/* Đặt khung cho video player */
-.plyr {
-  border: 5px solid #007bff; /* Khung xanh dương */
-  border-radius: 10px; /* Bo góc */
-  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3); /* Thêm bóng đổ nhẹ */
-  overflow: hidden; /* Ẩn phần thừa ngoài khung */
-}
+/* =================== MOVIE FRAME SANDBOX =================== */
 
-/* Cải thiện giao diện của vùng hiển thị video */
-.plyr__video-wrapper {
+.mf-container {
   position: relative;
-  border-bottom: 5px solid #007bff; /* Màu xanh dương cho đường viền dưới */
+  width: 800px;
+  max-width: 95vw;
+  background: #000;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
 }
 
-/* Chỉnh sửa màu nền cho các điều khiển */
-.plyr__controls {
-  background-color: #007bff; /* Màu nền xanh dương */
-  border-top: 5px solid #0056b3; /* Đường viền xanh đậm */
-  padding: 10px 15px; /* Thêm padding cho thanh điều khiển */
-  border-radius: 0 0 10px 10px; /* Bo góc dưới */
+/* Video */
+.mf-video {
+  width: 100%;
+  display: block;
+  background: #000;
 }
 
-/* Chỉnh màu các icon điều khiển */
-.plyr__control svg {
-  fill: white; /* Màu trắng cho các icon */
+/* Controls overlay */
+.mf-controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 18px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+  opacity: 1;
+  transition: opacity 0.3s ease;
 }
 
-/* Hover trên các nút điều khiển */
-.plyr__control:hover {
-  background-color: #0056b3; /* Màu xanh đậm khi hover */
+/* Progress row */
+.mf-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 10px;
 }
 
-/* Chỉnh sửa thanh tiến trình */
-.plyr__progress input {
-  background-color: #007bff; /* Màu xanh dương cho thanh tiến trình */
-  border-radius: 5px;
-  height: 10px; /* Độ cao thanh tiến trình */
+/* Range (sandbox tuyệt đối) */
+.mf-container input[type="range"] {
+  all: unset;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  cursor: pointer;
 }
 
-/* Màu của thanh đã tải (buffer) */
-.plyr__progress__buffer {
-  background-color: rgba(0, 123, 255, 0.5); /* Xanh dương nhạt */
+.mf-container input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #4da6ff;
+  border-radius: 50%;
+  box-shadow: -700px 0 0 700px #4da6ff;
 }
 
-/* Thanh âm lượng */
-.plyr__volume input {
-  background-color: #007bff; /* Màu xanh dương cho thanh âm lượng */
-  border-radius: 5px;
+.mf-container input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #4da6ff;
+  border-radius: 50%;
+  border: none;
 }
 
-/* Thay đổi màu cho thời gian hiện tại */
-.plyr__time--current {
-  color: #007bff; /* Màu xanh dương cho thời gian hiện tại */
-  font-weight: bold; /* Làm đậm thời gian hiện tại */
+/* Bottom controls */
+.mf-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Nút Play/Pause */
-.plyr__control[data-plyr="play"] svg,
-.plyr__control[data-plyr="pause"] svg {
-  fill: #007bff; /* Màu xanh dương cho Play/Pause */
+.mf-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.15s;
 }
 
-/* Nút Fullscreen */
-.plyr__control[data-plyr="fullscreen"] svg {
-  fill: #007bff; /* Màu xanh dương cho icon Fullscreen */
+.mf-btn:hover {
+  color: #4da6ff;
 }
 
-/* Nút Captions */
-.plyr__control[data-plyr="captions"] svg {
-  fill: #007bff; /* Màu xanh dương cho icon Captions */
+/* Volume section */
+.mf-volume {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-/* Menu Settings */
-.plyr__menu__value {
-  color: #007bff; /* Màu xanh dương cho các menu chọn */
+.player-wrapper {
+  width: 90%;
+  max-width: 900px;
+  background: linear-gradient(135deg, #161720, #191b28);
+  border-radius: 20px;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+  padding: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* Màu nền cho badge trong menu chọn */
-.plyr__menu__value span.plyr__badge {
-  background-color: #007bff; /* Màu nền xanh dương cho badge */
+.player-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 4px 10px;
 }
 
-/* Chỉnh sửa các nút trên menu */
-.plyr__control--forward {
-  background-color: #0056b3; /* Màu xanh đậm cho các nút menu */
-  border-radius: 5px;
+.player-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #e5e7eb;
 }
 
-.plyr__control--back {
-  background-color: #0056b3; /* Màu xanh đậm cho các nút quay lại */
-  border-radius: 5px;
+.player-badge {
+  font-size: 11px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: rgba(96, 165, 250, 0.12);
+  color: #93c5fd;
+  border: 1px solid rgba(59, 130, 246, 0.5);
 }
 
-/* Thêm màu cho nút Download */
-.article__download a {
-  color: #007bff; /* Màu xanh dương cho các liên kết download */
+.video-container {
+  position: relative;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #020617;
 }
 
-.article__download a:hover {
-  text-decoration: underline; /* Gạch chân khi hover */
+video {
+  width: 100%;
+  display: block;
+  background: #000;
+}
+
+/* Overlay play icon khi video paused */
+.center-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.center-play.show {
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.center-play button {
+  width: 70px;
+  height: 70px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  background: rgba(15, 23, 42, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(6px);
+}
+
+.center-play button svg {
+  width: 28px;
+  height: 28px;
+  fill: #e5e7eb;
+  margin-left: 2px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 8px 4px;
+  background: linear-gradient(
+    to top,
+    rgba(15, 23, 42, 0.92),
+    rgba(15, 23, 42, 0.75)
+  );
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+}
+
+.progress-bar-wrapper {
+  width: 100%;
+  height: 6px;
+  background: rgba(30, 41, 59, 0.9);
+  border-radius: 999px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-buffered {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(148, 163, 184, 0.55),
+    rgba(148, 163, 184, 0.15)
+  );
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.progress-filled {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  transform-origin: left;
+  transform: scaleX(0);
+}
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.controls-left,
+.controls-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  background: radial-gradient(circle at top left, #1f2937, #020617);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  transition: transform 0.08s ease, box-shadow 0.08s ease, background 0.1s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.btn-icon:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.9);
+  background: radial-gradient(circle at top left, #111827, #020617);
+}
+
+.btn-icon svg {
+  width: 18px;
+  height: 18px;
+  fill: #e5e7eb;
+}
+
+.time-label {
+  font-size: 12px;
+  color: #9ca3af;
+  font-variant-numeric: tabular-nums;
+  min-width: 90px;
+}
+
+.time-label span {
+  color: #e5e7eb;
+}
+
+.volume-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.volume-slider {
+  width: 80px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 4px;
+  border-radius: 999px;
+  background: #1f2937;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #38bdf8;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.3);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #38bdf8;
+  border: 1px solid #e5e7eb;
+}
+
+.quality-tag {
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: rgba(22, 163, 74, 0.18);
+  border: 1px solid rgba(22, 163, 74, 0.6);
+  color: #bbf7d0;
+}
+
+.controls {
+  transition: opacity 0.25s ease;
 }

@@ -5,16 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-	<!-- CSS -->
-	<link rel="stylesheet" href="/frontend//assets/css//bootstrap-reboot.min.css">
-	<link rel="stylesheet" href="/frontend//assets/css//bootstrap-grid.min.css">
-	<link rel="stylesheet" href="/frontend//assets/css//owl.carousel.min.css">
-	<link rel="stylesheet" href="/frontend//assets/css//slider-radio.css">
-	<link rel="stylesheet" href="/frontend//assets/css//select2.min.css">
-	<link rel="stylesheet" href="/frontend//assets/css//magnific-popup.css">
-	<link rel="stylesheet" href="/frontend//assets/css//plyr.css">
-	<link rel="stylesheet" href="/frontend//assets/css//main.css">
-
+	<link rel="stylesheet" href="/frontend/assets/css/bootstrap-reboot.min.css">
+	<link rel="stylesheet" href="/frontend/assets/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="/frontend/assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/frontend/assets/css/slider-radio.css">
+	<link rel="stylesheet" href="/frontend/assets/css/select2.min.css">
+	<link rel="stylesheet" href="/frontend/assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="/frontend/assets/css/plyr.css">
+	<link rel="stylesheet" href="/frontend/assets/css/main.css">
 
 
 

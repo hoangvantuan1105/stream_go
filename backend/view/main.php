@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="admin/owl.carousel.min.css" />
     <link rel="stylesheet" href="admin/plyr.css" />
     <link rel="stylesheet" href="admin/select2.min.css" />
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="admin/admin.css">
 
      <link
       rel="icon"
@@ -176,7 +176,7 @@
                         d="M21,11a1,1,0,0,0-1,1,8.05,8.05,0,1,1-2.22-5.5h-2.4a1,1,0,0,0,0,2h4.53a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4.77A10,10,0,1,0,22,12,1,1,0,0,0,21,11Z"
                       ></path></svg
                   ></a>
-                  <a
+                  <a    
                     class="dashbox__more"
                     href="https://flixtv.volkovdesign.com/admin/catalog.html"
                     >View All</a
