@@ -1,4 +1,12 @@
 <?php
+
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+
+require __DIR__ . '/../../PHPMailer/src/PHPMailer.php';
+require  __DIR__ . '/../../PHPMailer/src/SMTP.php';
+require  __DIR__ . '/../../PHPMailer/src/Exception.php';
 require_once __DIR__ . '/../model/db.php';
 class controller
 {
@@ -130,6 +138,116 @@ class controller
     {
         include __DIR__ . "/../view/forgotPassword.php";
     }
+    public function forgotPassAction()
+    {
+        $email = $_POST['email'] ?? '';
+
+        if (empty($email)) {
+            $msg = 'Vui lòng nhập email';
+            include __DIR__ . "/../view/forgotPassword.php";
+            return;
+        }
+
+        $user = $this->movieModel->checkEmailExists($email);
+        if (!$user) {
+            $msg = 'Email không tồn tại!';
+            include __DIR__ . '/../view/forgotPassword.php';
+            return;
+        }
+
+
+        $newPass = substr(str_shuffle('ABCDEFGHJKLMNPQRSTUVWXYZ0123456789'), 0, 8);
+
+        $this->movieModel->updatePasswordByEmail($email, $newPass);
+
+        $this->sendNewPasswordMail($email, $newPass);
+        header("Location: index.php?page=formLogin&msg=sent");
+        exit;
+    }
+
+
+
+    public function sendNewPasswordMail($email, $newPass)
+    {
+
+
+        $mail = new PHPMailer(true);
+
+        try {
+            $mail->isSMTP();
+            $mail->Host       = 'smtp.gmail.com';
+            $mail->SMTPAuth   = true;
+
+            $mail->Username   = 'vantuan0326@gmail.com';
+            $mail->Password   = 'rdmy kbpi hypt fmoy';
+
+            $mail->SMTPSecure = 'tls';
+            $mail->Port       = 587;
+
+            $mail->setFrom('vantuan0326@gmail.com', 'streamGo');
+            $mail->addAddress($email);
+
+            $mail->isHTML(true);
+            $mail->Subject = "Mật khẩu mới của bạn – streamGo";
+            $mail->Body = "
+            <h2 style='color:#4da3ff'>streamGo - Khôi phục mật khẩu</h2>
+            <p>Mật khẩu mới của bạn:</p>
+            <h3 style='color:#4da3ff'>$newPass</h3>
+            <p>Hãy đăng nhập và đổi mật khẩu ngay!</p>
+        ";
+
+            $mail->send();
+            return true;
+        } catch (Exception $e) {
+            return false;
+        }
+    }
+    public function changePassword()
+    {
+        if (!isset($_SESSION['users'])) {
+            header("Location: index.php?page=formLogin");
+            exit;
+        }
+
+        $oldPass     = $_POST['old_password'] ?? '';
+        $newPass     = $_POST['new_password'] ?? '';
+        $confirmPass = $_POST['confirm_password'] ?? '';
+
+        $user = $_SESSION['users'];
+
+        // 1. Validate rỗng
+        if (empty($oldPass) || empty($newPass) || empty($confirmPass)) {
+            $msg = "Vui lòng nhập đầy đủ thông tin!";
+            include __DIR__ . "/../view/profile.php";
+            return;
+        }
+
+        // 2. Kiểm tra mật khẩu cũ đúng không
+        if ($oldPass !== $user['password']) {
+            $msg = "Mật khẩu cũ không đúng!";
+            include __DIR__ . "/../view/profile.php";
+            return;
+        }
+
+        // 3. Kiểm tra newPass trùng confirm
+        if ($newPass !== $confirmPass) {
+            $msg = "Mật khẩu xác nhận không khớp!";
+            include __DIR__ . "/../view/profile.php";
+            return;
+        }
+
+        // 4. Update DB
+        $this->movieModel->updatePasswordByEmail($user['email'], $newPass);
+
+        // 5. Update lại session
+        $_SESSION['users']['password'] = $newPass;
+
+        // 6. Thông báo thành công
+        $msg = "Đổi mật khẩu thành công!";
+        include __DIR__ . "/../view/profile.php";
+    }
+
+
 
     public function page404()
     {

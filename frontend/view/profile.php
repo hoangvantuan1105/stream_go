@@ -79,6 +79,8 @@
 
 <body>
 
+
+
     <div class="container" style="margin-top: 40px;">
 
         <!-- USER HEADER -->
@@ -96,7 +98,7 @@
 
             <div>
                 <h3 style="color:white; margin:0;">
-                    <?= $_SESSION['users']['username'] ?? 'Username' ?>
+                    <?= $_SESSION['users']['name'] ?? 'name' ?>
                     <span style="color:#4caf50; font-size:14px;">(Approved)</span>
                 </h3>
                 <p style="color:#9ab; margin:0; font-size:14px;">
@@ -170,7 +172,6 @@
                         padding:25px; 
                         border-radius:12px;">
                         <h4 style="color:white; margin-bottom:25px;">Change password</h4>
-
                         <form action="index.php?page=changePassword" method="post">
 
                             <label style="color:#9ab;">Old password</label>

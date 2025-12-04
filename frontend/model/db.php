@@ -52,4 +52,9 @@ class streamGo
         $pdo->execute([$email, $pass]);
         return $pdo->fetch(PDO::FETCH_ASSOC);
     }
+    public function updatePasswordByEmail($email, $newPass)
+    {
+        $stmt = $this->conn->prepare("UPDATE users SET password=? WHERE email=?");
+        return $stmt->execute([$newPass, $email]);
+    }
 }

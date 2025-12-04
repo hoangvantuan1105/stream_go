@@ -24,7 +24,11 @@
                 <div class="col-12">
                     <div class="sign__content">
 
+
                         <form action="index.php?page=login" class="sign__form" method="post">
+                            <?php if (isset($_GET['msg']) && $_GET['msg'] === 'sent'): ?>
+                                <p style="color:#4da3ff;">Mật khẩu đã được gửi đến email của bạn!</p>
+                            <?php endif; ?>
                             <a href="index.html" class="sign__logo">
                                 <img src="frontend/assets/images/logo.png" alt="">
                             </a>

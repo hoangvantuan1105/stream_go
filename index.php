@@ -43,6 +43,12 @@ switch ($page) {
     case 'forgotPass':
         $controller->forgotPass();
         break;
+    case 'forgotPassAction':
+        $controller->forgotPassAction();
+        break;
+    case 'changePassword':
+        $controller->changePassword();
+        break;
     default:
         $controller->page404();
         break;

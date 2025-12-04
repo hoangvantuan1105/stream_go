@@ -23,19 +23,21 @@
                 <div class="col-12">
                     <div class="sign__content">
                         <!-- authorization form -->
-                        <form action="#" class="sign__form">
+                        <form action="index.php?page=forgotPassAction" class="sign__form" method="post">
                             <a href="index.html" class="sign__logo">
                                 <img src="frontend/assets/images/logo.png" alt="">
                             </a>
 
                             <div class="sign__group">
-                                <input type="text" class="sign__input" placeholder="Email">
+                                <input type="text" class="sign__input" placeholder="Email" name="email">
                             </div>
-                            <button class="sign__btn" type="button">Send</button>
+                            <button class="sign__btn" type="submit">Send</button>
 
-                            <span class="sign__text">We will send a password to your Email</span>
+                            <?php if (!empty($msg)) echo "<p style='color:#4da3ff'>$msg</p>"; ?>
+                            <!-- <span class="sign__text">We will send a password to your Email</span> -->
                         </form>
                         <!-- end authorization form -->
+
                     </div>
                 </div>
             </div>
