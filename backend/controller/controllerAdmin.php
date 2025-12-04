@@ -1,20 +1,33 @@
-<?php  
+<?php
 require_once __DIR__ . '/../model/data.php';
-class controllerAdmin {
-    private $adminCon;
-    public function __construct()
-    {
-        
+class controllerAdmin
+{
+  private $adminCon;
+  public function __construct() {}
+  public function main()
+  {
+    include __DIR__ . '/../view/header.php';
+    include __DIR__ . '/../view/main.php';
+  }
+
+  public function catalog()
+  {
+    $movieModel = new Movie();
+    $movies = $movieModel->getAll();
+    include __DIR__ . '/../view/header.php';
+    include __DIR__ . '/../view/catalog.php';
+  }
+  public function checkAdminAuth()
+  {
+    if (session_status() === PHP_SESSION_NONE) {
+      session_start();
     }
-    public function main(){
-      include __DIR__ .'/../view/header.php';
-      include __DIR__ .'/../view/main.php';
+
+    if (!isset($_SESSION['admin'])) {
+      header("Location: index.php?page=adminLogin");
+      exit;
     }
-   
-    public function catalog(){
-       $movieModel = new Movie();
-        $movies = $movieModel->getAll();
-      include __DIR__ .'/../view/header.php';
-      include __DIR__ .'/../view/catalog.php';
-    }
+    $this->adminCon = $_SESSION['admin']['role'] ?? 'admin';
+    $this->adminCon = $_SESSION['admin']['name'] ?? 'Unknown';
+  }
 }

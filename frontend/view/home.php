@@ -83,7 +83,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/5.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>The Empty Man</h2>
@@ -104,7 +104,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/6.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Jungleland</h2>
@@ -125,7 +125,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/7.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Bad Impulse</h2>
@@ -146,7 +146,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/8.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Tenet</h2>
@@ -167,7 +167,7 @@
 					<div class="owl-item" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/1.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Money Plane</h2>
@@ -188,7 +188,7 @@
 					<div class="owl-item active" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/2.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>The Art of Political</h2>
@@ -209,7 +209,7 @@
 					<div class="owl-item active center" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/3.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Antebellum</h2>
@@ -230,7 +230,7 @@
 					<div class="owl-item active" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/4.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Kids Next Door</h2>
@@ -251,7 +251,7 @@
 					<div class="owl-item active" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/5.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>The Empty Man</h2>
@@ -272,7 +272,7 @@
 					<div class="owl-item" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/6.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Jungleland</h2>
@@ -293,7 +293,7 @@
 					<div class="owl-item" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/7.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Bad Impulse</h2>
@@ -314,7 +314,7 @@
 					<div class="owl-item" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/8.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Tenet</h2>
@@ -335,7 +335,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/1.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Money Plane</h2>
@@ -356,7 +356,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/2.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>The Art of Political</h2>
@@ -377,7 +377,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/3.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Antebellum</h2>
@@ -398,7 +398,7 @@
 					<div class="owl-item cloned" style="width: auto; margin-right: 30px;">
 						<div class="home__card">
 							<a href="details.html">
-								<img src="img/home/4.jpg" alt="">
+								<img src="/frontend/assets/images/xuanca.jpg" alt="">
 							</a>
 							<div>
 								<h2>Kids Next Door</h2>
@@ -554,7 +554,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//17.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -572,7 +572,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//13.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -590,7 +590,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//10.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -608,7 +608,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//9.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -626,7 +626,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//14.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -644,7 +644,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//12.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -662,7 +662,7 @@
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//11.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -680,7 +680,7 @@
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//15.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -698,7 +698,7 @@
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//3.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -716,7 +716,7 @@
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//1.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -734,7 +734,7 @@
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//18.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -752,7 +752,7 @@
 									<div class="owl-item active" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//2.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -770,7 +770,7 @@
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//17.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -788,7 +788,7 @@
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//13.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -806,7 +806,7 @@
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//10.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -824,7 +824,7 @@
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//9.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -842,7 +842,7 @@
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//14.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -860,7 +860,7 @@
 									<div class="owl-item" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//12.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -878,7 +878,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//11.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -896,7 +896,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//15.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -914,7 +914,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//3.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -932,7 +932,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//1.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -950,7 +950,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//18.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -968,7 +968,7 @@
 									<div class="owl-item cloned" style="width: 191.667px; margin-right: 30px;">
 										<div class="card">
 											<a href="" class="card__cover">
-												<img src="/frontend//assets//images//2.png" alt="">
+												<img src="/frontend/assets/images/xuanca.jpg" alt="">
 												<svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M13.1615 8.05308C13.1615 9.79908 11.7455 11.2141 9.9995 11.2141C8.2535 11.2141 6.8385 9.79908 6.8385 8.05308C6.8385 6.30608 8.2535 4.89108 9.9995 4.89108C11.7455 4.89108 13.1615 6.30608 13.1615 8.05308Z" stroke-linecap="round" stroke-linejoin="round"></path>
 													<path fill-rule="evenodd" clip-rule="evenodd" d="M9.998 15.3549C13.806 15.3549 17.289 12.6169 19.25 8.05289C17.289 3.48888 13.806 0.750885 9.998 0.750885H10.002C6.194 0.750885 2.711 3.48888 0.75 8.05289C2.711 12.6169 6.194 15.3549 10.002 15.3549H9.998Z" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1088,32 +1088,6 @@
 	</section>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-<script>
-	$(document).ready(function() {
-		$("#flixtv-hero").owlCarousel({
-			items: 3,
-			margin: 30,
-			loop: true,
-			autoplay: true,
-			autoplayTimeout: 3000,
-			autoplaySpeed: 1800,
-			smartSpeed: 1800,
-			center: true,
-			dots: false,
-			nav: false,
-			autoWidth: true
-		});
 
-		$(".home__nav--next").click(() => {
-			$("#flixtv-hero").trigger("next.owl.carousel");
-		});
-
-		$(".home__nav--prev").click(() => {
-			$("#flixtv-hero").trigger("prev.owl.carousel");
-		});
-	});
-</script>
 
 </html>
