@@ -30,4 +30,12 @@ class controllerAdmin
     $this->adminCon = $_SESSION['admin']['role'] ?? 'admin';
     $this->adminCon = $_SESSION['admin']['name'] ?? 'Unknown';
   }
+  public function danh_sach_users(){
+    $movieModel = new Movie();
+    $danh_sach_user = $movieModel->all_users();
+    
+    include __DIR__ . '/../view/header.php';
+    include __DIR__ . '/../view/quanlyuse.php';
+}
+
 }

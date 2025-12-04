@@ -19,7 +19,7 @@ class Movie
     }
     public function getById($id)
     {
-        $stmt = $this->conn->prepare("SELECT * FROM movies WHERE id=?");
+        $stmt = $this->db->prepare("SELECT * FROM movies WHERE id=?");
         $stmt->execute([$id]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
@@ -27,20 +27,25 @@ class Movie
     public function insert($title, $year, $poster)
     {
         $sql = "INSERT INTO movies(title, year, poster) VALUES (?,?,?)";
-        $stmt = $this->conn->prepare($sql);
+        $stmt = $this->db->prepare($sql);
         return $stmt->execute([$title, $year, $poster]);
     }
 
     public function updateMovie($id, $title, $year, $poster)
     {
         $sql = "UPDATE movies SET title=?, year=?, poster=? WHERE id=?";
-        $stmt = $this->conn->prepare($sql);
+        $stmt = $this->db->prepare($sql);
         return $stmt->execute([$title, $year, $poster, $id]);
     }
 
     public function deleteMovie($id)
     {
-        $stmt = $this->conn->prepare("DELETE FROM movies WHERE id=?");
+        $stmt = $this->db->prepare("DELETE FROM movies WHERE id=?");
         return $stmt->execute([$id]);
+    }
+    public function all_users() {
+        $stmt = $this->db->prepare("SELECT * FROM users");
+        $stmt->execute();
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
 }

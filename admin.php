@@ -15,5 +15,8 @@ switch ($page) {
         break;
     case 'catalog':
         $controller->catalog();
+        break;    
+    case 'quanlyuser':
+        $controller->danh_sach_users();
         break;
 }
