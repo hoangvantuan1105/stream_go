@@ -31,11 +31,17 @@ class controller
         include __DIR__ . '/../view/footer.php';
     }
 
-    public function streamVideo()
+    public function detail($id)
     {
+        $detailPage = $this->movieModel->getId($id);
         include __DIR__ . "/../view/header.php";
-        include __DIR__ . "/../view/streamVideo.php";
+        include __DIR__ . "/../view/detail.php";
         include __DIR__ . '/../view/footer.php';
+    }
+    public function playVideo($id)
+    {
+        $playVideo = $this->movieModel->getId($id);
+        include __DIR__ . "/../view/playVideo.php";
     }
     // ============================
     public function formLogin()

@@ -90,105 +90,34 @@
 				<div class="row">
 					<div class="col-12 col-xl-8">
 						<!-- trailer -->
-						<a href="https://www.tiktok.com/@xuanca._/video/7575442261249412368?is_from_webapp=1&sender_device=pc" class="article__trailer open-video">
+						<a href="index.php?page=playVideo&id=<?= $detailPage['id'] ?>" class="article__trailer open-video">
 							<svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M11 1C16.5228 1 21 5.47716 21 11C21 16.5228 16.5228 21 11 21C5.47716 21 1 16.5228 1 11C1 5.47716 5.47716 1 11 1Z" stroke-linecap="round" stroke-linejoin="round"></path>
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M14.0501 11.4669C13.3211 12.2529 11.3371 13.5829 10.3221 14.0099C10.1601 14.0779 9.74711 14.2219 9.65811 14.2239C9.46911 14.2299 9.28711 14.1239 9.19911 13.9539C9.16511 13.8879 9.06511 13.4569 9.03311 13.2649C8.93811 12.6809 8.88911 11.7739 8.89011 10.8619C8.88911 9.90489 8.94211 8.95489 9.04811 8.37689C9.07611 8.22089 9.15811 7.86189 9.18211 7.80389C9.22711 7.69589 9.30911 7.61089 9.40811 7.55789C9.48411 7.51689 9.57111 7.49489 9.65811 7.49789C9.74711 7.49989 10.1091 7.62689 10.2331 7.67589C11.2111 8.05589 13.2801 9.43389 14.0401 10.2439C14.1081 10.3169 14.2951 10.5129 14.3261 10.5529C14.3971 10.6429 14.4321 10.7519 14.4321 10.8619C14.4321 10.9639 14.4011 11.0679 14.3371 11.1549C14.3041 11.1999 14.1131 11.3999 14.0501 11.4669Z" stroke-linecap="round" stroke-linejoin="round"></path>
 							</svg>
-							Trailer
+							Xem
 						</a>
 						<!-- end trailer -->
 
 						<!-- article content -->
 						<div class="article__content">
-							<h1>The Fast and the Furious</h1>
+							<h1><?= $detailPage['title'] ?></h1>
 
 							<ul class="list">
 								<li><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
 										<path d="M22,9.67A1,1,0,0,0,21.14,9l-5.69-.83L12.9,3a1,1,0,0,0-1.8,0L8.55,8.16,2.86,9a1,1,0,0,0-.81.68,1,1,0,0,0,.25,1l4.13,4-1,5.68A1,1,0,0,0,6.9,21.44L12,18.77l5.1,2.67a.93.93,0,0,0,.46.12,1,1,0,0,0,.59-.19,1,1,0,0,0,.4-1l-1-5.68,4.13-4A1,1,0,0,0,22,9.67Zm-6.15,4a1,1,0,0,0-.29.88l.72,4.2-3.76-2a1.06,1.06,0,0,0-.94,0l-3.76,2,.72-4.2a1,1,0,0,0-.29-.88l-3-3,4.21-.61a1,1,0,0,0,.76-.55L12,5.7l1.88,3.82a1,1,0,0,0,.76.55l4.21.61Z"></path>
-									</svg> 9.7</li>
+									</svg> <?= $detailPage['imdb_rating'] ?></li>
 								<li>Action</li>
-								<li>2021</li>
-								<li>1 h 42 min</li>
-								<li>16+</li>
+								<li><?= $detailPage['release_year'] ?></li>
+								<li><?= $detailPage['duration'] ?></li>
+								<li><?= $detailPage['age_limit'] ?></li>
 							</ul>
 
-							<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+							<p><?= $detailPage['description'] ?></p>
 						</div>
 						<!-- end article content -->
 					</div>
 
-					<!-- video player -->
-					<div class="player-wrapper">
-						<div class="player-header">
-							<div class="player-title">Tiên Nghịch</div>
-							<div class="player-badge">Tập 1</div>
-						</div>
-
-						<div class="video-container">
-							<video id="video" preload="metadata" playsinline></video>
-
-							<!-- Nút play giữa màn hình -->
-							<div class="center-play" id="centerPlay">
-								<button id="bigPlayBtn" aria-label="Play video">
-									<svg viewBox="0 0 24 24">
-										<path d="M8 5v14l11-7z"></path>
-									</svg>
-								</button>
-							</div>
-						</div>
-
-						<!-- Controls -->
-						<div class="controls">
-							<div class="progress-bar-wrapper" id="progressBar">
-								<div class="progress-buffered" id="bufferBar"></div>
-								<div class="progress-filled" id="progressFilled"></div>
-							</div>
-
-							<div class="controls-row">
-								<div class="controls-left">
-									<button class="btn-icon" id="playPauseBtn" aria-label="Play/Pause">
-										<!-- icon mặc định: play -->
-										<svg id="playIcon" viewBox="0 0 24 24">
-											<path d="M8 5v14l11-7z"></path>
-										</svg>
-										<svg id="pauseIcon" viewBox="0 0 24 24" style="display:none;">
-											<path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
-										</svg>
-									</button>
-
-									<div class="time-label" id="timeLabel">
-										<span id="currentTime">00:00</span> / <span id="duration">00:00</span>
-									</div>
-								</div>
-
-								<div class="controls-right">
-									<div class="volume-wrapper">
-										<button class="btn-icon" id="muteBtn" aria-label="Mute/Unmute">
-											<svg id="volOnIcon" viewBox="0 0 24 24">
-												<path d="M5 9v6h4l5 5V4L9 9H5z"></path>
-											</svg>
-											<svg id="volOffIcon" viewBox="0 0 24 24" style="display:none;">
-												<path d="M16.5 12l3.5 3.5-1.5 1.5L15 13.5 11.5 17H9l5-5-5-5h2.5L15 10.5l3.5-3.5 1.5 1.5L16.5 12zM5 9v6h3l4-4-4-4H5z"></path>
-											</svg>
-										</button>
-										<input id="volumeSlider" class="volume-slider" type="range" min="0" max="1" step="0.05" value="1">
-									</div>
-
-									<div class="quality-tag">Auto</div>
-
-									<button class="btn-icon" id="fullscreenBtn" aria-label="Fullscreen">
-										<svg viewBox="0 0 24 24">
-											<path d="M7 14H5v5h5v-2H7v-3zm0-4h3V7h2V5H7v5zm10 9h-3v2h5v-5h-2v3zm0-9V5h-5v2h3v3h2z"></path>
-										</svg>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-					<!-- end video player -->
 
 					<!-- series -->
 					<div class="col-12">
@@ -921,8 +850,7 @@
 
 
 	<!-- JS -->
-	<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-	<script src="/frontend/assets/js/playVideo.js"></script>
+
 
 </body>
 

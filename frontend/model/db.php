@@ -26,6 +26,12 @@ class streamGo
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function getId($id)
+    {
+        $stmt = $this->conn->prepare("SELECT * FROM movies WHERE id = ?");
+        $stmt->execute([$id]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
     public function checkEmailExists($email)
     {
         $stmt = $this->conn->prepare("SELECT * FROM users WHERE email = ?");

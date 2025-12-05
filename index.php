@@ -5,15 +5,15 @@ require_once './frontend/controller/controller.php';
 $controller = new controller();
 
 $page = $_GET['page'] ?? 'home';
-
+$id = $_GET['id'] ?? null;
 switch ($page) {
 
     case 'home':
         $controller->index();
         break;
 
-    case 'streamVideo':
-        $controller->streamVideo();
+    case 'detail':
+        $controller->detail($id);
         break;
 
     case 'formLogin':
@@ -48,6 +48,9 @@ switch ($page) {
         break;
     case 'changePassword':
         $controller->changePassword();
+        break;
+    case 'playVideo':
+        $controller->playVideo($id);
         break;
     default:
         $controller->page404();
