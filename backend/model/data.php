@@ -11,33 +11,50 @@ class Movie
 
     public function getAll()
     {
-        $sql = "SELECT id, title, imdb_rating, poster_url, type_movie 
-                FROM movies ORDER BY id DESC";
-        $stmt = $this->db->prepare($sql);
+        $stmt = $this->db->prepare("SELECT * FROM movies");
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-    public function getById($id) {
-        $stmt = $this->conn->prepare("SELECT * FROM movies WHERE id=?");
+     
+
+public function create($data)
+    {
+        $sql = "INSERT INTO movies 
+            (title, description, release_year, duration, poster_url, 
+            trailer_url, video_url, imdb_rating, view_count, age_limit, 
+            status, type_movie)
+        VALUES 
+            (:title, :description, :release_year, :duration, :poster_url,
+            :trailer_url, :video_url, :imdb_rating, :view_count, :age_limit,
+            :status, :type_movie)";
+
+        $stmt = $this->db->prepare($sql);
+          return $stmt->execute([
+            ":title"        => $data['title'],
+            ":description"  => $data['description'],
+            ":release_year" => $data['release_year'],
+            ":duration"     => $data['duration'],
+            ":poster_url"   => $data['poster_url'],
+            ":trailer_url"  => $data['trailer_url'],
+            ":video_url"    => $data['video_url'],
+            ":imdb_rating"  => $data['imdb_rating'],
+            ":view_count"   => $data['view_count'],
+            ":age_limit"    => $data['age_limit'],
+            ":status"       => $data['status'],
+            ":type_movie"   => $data['type_movie'],
+        ]);
+    }
+         public function getById($id)
+    {
+        $stmt = $this->db->prepare("SELECT * FROM movies WHERE id=?");
         $stmt->execute([$id]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
-    public function insert($title, $year, $poster) {
-        $sql = "INSERT INTO movies(title, year, poster) VALUES (?,?,?)";
-        $stmt = $this->conn->prepare($sql);
-        return $stmt->execute([$title, $year, $poster]);
-    }
-
-    public function updateMovie($id, $title, $year, $poster) {
-        $sql = "UPDATE movies SET title=?, year=?, poster=? WHERE id=?";
-        $stmt = $this->conn->prepare($sql);
-        return $stmt->execute([$title, $year, $poster, $id]);
-    }
-
-    public function deleteMovie($id) {
-        $stmt = $this->conn->prepare("DELETE FROM movies WHERE id=?");
+    public function deleteMovie($id)
+    {
+        $stmt = $this->db->prepare("DELETE FROM movies WHERE id=?");
         return $stmt->execute([$id]);
     }
-}
 
+    }

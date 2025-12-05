@@ -12,4 +12,14 @@ switch($page){
     case 'catalog':
         $controller->catalog();
     break;
+    case 'subform':
+        $controller->subform();
+    break;
+    case 'saveMovie':
+        $controller->saveMovie();
+    break;
+    case 'deleteMovie':
+        $controller->deleteMovie();
+        break;
+    
 }

@@ -171,7 +171,7 @@
             <a
               class="sidebar__nav-link"
               data-toggle="collapse"
-              href="https://flixtv.volkovdesign.com/admin/index.html#collapseMenu"
+              href="admin.php?page=subform"
               role="button"
               aria-expanded="false"
               aria-controls="collapseMenu"
