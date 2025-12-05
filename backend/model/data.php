@@ -48,4 +48,17 @@ class Movie
         $stmt->execute();
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
+    public function get_id_user($id)  {
+       $stmt = $this->db->prepare("SELECT * FROM users WHERE id=?");
+        $stmt->execute([$id]);
+        return $stmt->fetch(PDO::FETCH_ASSOC);
+    }
+
+    public function deleteUser($id) {
+
+    $stmt = $this->db->prepare("DELETE FROM users WHERE id = ?");
+    
+    return $stmt->execute([$id]);
+}
+   
 }

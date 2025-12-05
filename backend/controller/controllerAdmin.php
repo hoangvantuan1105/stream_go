@@ -26,7 +26,7 @@ class controllerAdmin
     if (!isset($_SESSION['admin'])) {
       header("Location: index.php?page=adminLogin");
       exit;
-    }
+    } 
     $this->adminCon = $_SESSION['admin']['role'] ?? 'admin';
     $this->adminCon = $_SESSION['admin']['name'] ?? 'Unknown';
   }
@@ -34,8 +34,26 @@ class controllerAdmin
     $movieModel = new Movie();
     $danh_sach_user = $movieModel->all_users();
     
-    include __DIR__ . '/../view/header.php';
+    // include __DIR__ . '/../view/header.php';
     include __DIR__ . '/../view/quanlyuse.php';
 }
+public function xoauser()
+{
+    $movieModel = new Movie();
+    $id = $_GET['iduser'] ?? null; 
+
+    if ($id) {
+        $idDeleted = $movieModel->deleteUser( $id ); 
+        if ($idDeleted) {
+            header('Location: admin.php?page=quanlyuser&action=deleted');
+        } else {
+             header('Location: admin.php?page=quanlyuser&action=delete_fail');
+        }
+        exit;
+    }
+    header('Location: admin.php?page=quanlyuser');
+    exit;
+}
+
 
 }
