@@ -52,4 +52,13 @@ class streamGo
         $pdo->execute([$email, $pass]);
         return $pdo->fetch(PDO::FETCH_ASSOC);
     }
+
+         public function searchMovies($keyword)
+{
+    $sql = "SELECT * FROM movies WHERE title LIKE ?";
+    $stmt = $this->conn->prepare($sql);
+    $stmt->execute(["%{$keyword}%"]);
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
 }

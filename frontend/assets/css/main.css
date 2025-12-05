@@ -420,7 +420,7 @@ body::-webkit-scrollbar-thumb {
   bottom: 0;
 }
 .header__form-input {
-  width: calc(100% - 40px);
+  max-width: 250px;
   height: 40px;
   border-radius: 16px;
   background-color: #151f30;

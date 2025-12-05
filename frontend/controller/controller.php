@@ -135,4 +135,29 @@ class controller
     {
         include __DIR__ . "/../view/page404.php";
     }
+    
+
+
+     public function search()
+{
+    // đảm bảo đường dẫn đúng tới file db
+    require_once __DIR__ . '/../model/db.php';
+
+    // khởi tạo model và connect
+    $model = new streamGo();
+    $model->connectDB();
+
+    // lấy keyword từ POST (theo JS bạn đang dùng method: POST)
+    $keyword = isset($_POST['keyword']) ? trim($_POST['keyword']) : '';
+
+    // gọi search (model sẽ xử lý LIKE)
+    $movies = $model->searchMovies($keyword);
+
+    // để debug (bật khi cần) -> hiện ra kết quả raw
+    // header('Content-Type: application/json'); echo json_encode($movies); exit;
+
+    // include view (view sẽ dùng biến $movies)
+    include __DIR__ . '/../view/search_result.php';
 }
+}
+

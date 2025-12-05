@@ -72,6 +72,63 @@
 		background: rgba(0, 0, 0, .5);
 		border-radius: 4px;
 	}
+
+	/* Nút Dropdown */
+
+		/* vùng nút select */
+.selection-dark {
+    background: #0f172a !important;
+    border: 0 !important;
+    color: #fff !important;
+    padding: 6px 12px !important;
+    border-radius: 10px !important;
+}
+
+.selection-dark .select2-selection__rendered {
+    color: #fff !important;
+    font-size: 15px;
+}
+
+.selection-dark .select2-selection__arrow b {
+    border-color: #fff transparent transparent transparent !important;
+}
+
+/* vùng menu dropdown */
+.dropdown-dark {
+    background: #0d1525 !important;
+    color: #d4d8e3 !important;
+    border-radius: 10px !important;
+    padding: 8px 0 !important;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.5) !important;
+}
+
+/* từng item */
+.dropdown-dark .select2-results__option {
+    padding: 10px 15px !important;
+    font-size: 15px;
+}
+
+/* hover */
+.dropdown-dark .select2-results__option--highlighted {
+    background: #1e293b !important;
+    color: #fff !important;
+}
+
+/* item chọn */
+.dropdown-dark .select2-results__option[aria-selected=true] {
+    color: #3b82f6 !important;
+    font-weight: 600 !important;
+}
+
+/* scrollbar đẹp */
+.select2-results__options::-webkit-scrollbar {
+    width: 6px;
+}
+.select2-results__options::-webkit-scrollbar-thumb {
+    background: #3b4354;
+    border-radius: 8px;
+}
+
 </style>
 
 <body>
@@ -436,8 +493,8 @@
 				<div class="col-12">
 					<div class="catalog__nav">
 						<div class="catalog__select-wrap">
-							<select class="catalog__select select2-hidden-accessible" name="genres" data-select2-id="select2-data-1-1dgk" tabindex="-1" aria-hidden="true">
-								<option value="All genres" data-select2-id="select2-data-3-83wy">All genres</option>
+							<select class="catalog__select" name="genres">
+								<option value="All genres">All genres</option>
 								<option value="Action/Adventure">Action/Adventure</option>
 								<option value="Animals">Animals</option>
 								<option value="Animation">Animation</option>
@@ -471,10 +528,10 @@
 								<option value="Science/Nature">Science/Nature</option>
 								<option value="Travel">Travel</option>
 								<option value="Western">Western</option>
-							</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-2-gf4t" style="width: 124px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-genres-jw-container"><span class="select2-selection__rendered" id="select2-genres-jw-container" role="textbox" aria-readonly="true" title="All genres">All genres</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+							</select>
 
-							<select class="catalog__select select2-hidden-accessible" name="years" data-select2-id="select2-data-4-n8i6" tabindex="-1" aria-hidden="true">
-								<option value="All the years" data-select2-id="select2-data-6-70l2">All the years</option>
+							<select class="catalog__select" name="years">
+								<option value="All the years">All the years</option>
 								<option value="1">'50s</option>
 								<option value="2">'60s</option>
 								<option value="3">'70s</option>
@@ -483,9 +540,8 @@
 								<option value="6">2000-10</option>
 								<option value="7">2010-20</option>
 								<option value="8">2021</option>
-							</select><span class="select2 select2-container select2-container--default" dir="ltr" data-select2-id="select2-data-5-rqrr" style="width: 91px;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-years-yp-container"><span class="select2-selection__rendered" id="select2-years-yp-container" role="textbox" aria-readonly="true" title="All the years">All the years</span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span>
+							</select>
 						</div>
-
 						<div class="slider-radio">
 							<input type="radio" name="grade" id="featured" checked="checked"><label for="featured">Featured</label>
 							<input type="radio" name="grade" id="popular"><label for="popular">Popular</label>
@@ -1087,6 +1143,56 @@
 		</div>
 	</section>
 </body>
+<script>
+	(function($){
+      $(document).ready(function() {
+
+        // DEBUG: kiểm tra select2 có load không
+        if (typeof $.fn.select2 !== 'function') {
+          console.error('Select2 chưa được load. Kiểm tra CDN hoặc đường dẫn script.');
+          return;
+        }
+
+        // Nếu select đã được init trước đó (trong HTML của bạn có thể đã có select2),
+        // thì hủy init trước khi init lại để tránh trạng thái "tabindex=-1, aria-hidden=true".
+        $('.catalog__select').each(function(){
+          if ($(this).data('select2')) {
+            $(this).select2('destroy');
+          }
+        });
+
+        // Khởi tạo với class tùy chỉnh để gán CSS dark style
+        $('.catalog__select').select2({
+          minimumResultsForSearch: Infinity, // tắt ô tìm kiếm trong dropdown
+          dropdownCssClass: "dropdown-dark",
+          selectionCssClass: "selection-dark",
+          width: 'style' // dùng width theo thẻ select (hoặc 'resolve')
+        });
+
+        // Example: mở dropdown khi hover nút (tuỳ bạn)
+        // $('.catalog__select').on('select2:open', function() {
+        //    console.log('opened');
+        // });
+
+      });
+    })(jQuery);
+	$('.catalog__select[name="genres"]').select2({
+    placeholder: "Search genre...",
+    ajax: {
+        url: 'genres.json',
+        dataType: 'json',
+        delay: 250,
+        processResults: function (data) {
+            return {
+                results: data.map(name => ({
+                    id: name,
+                    text: name
+                }))
+            };
+        }
+    }
+});
+</script>
 
 
 
